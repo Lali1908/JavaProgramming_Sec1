@@ -1,0 +1,7 @@
+Student_id : 2313111029
+Student_name : Lalita
+Major : IT
+Level : 1
+faculty : IT
+
+ 
