@@ -16,6 +16,7 @@ public class Lab401 {
 		
 			if(x < y) {
 			System.out.println(x + "+" + y + "=" + x+y);}
+			break;
 	}
 
 }
