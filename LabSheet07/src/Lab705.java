@@ -24,7 +24,7 @@ public class Lab705 {
 		    {
 		    	if(_number % 2 == 0)
 		    	{
-		    		 even+= _nums+" ";
+		    		 eve = eve + _nums + " ";
 		        }
 		    }
 		   JOptionPane.showMessageDialog(null, "List of even number: \n"+ eve);
@@ -37,7 +37,7 @@ public class Lab705 {
 		    {
 		    	if(_number % 2 == 1)
 		    	{
-		    		odd+= _nums+" ";
+		    		odd += nums + " ";
 		        }
 		    }
 		  JOptionPane.showMessageDialog(null, "List of even number: \n"+ odd);
