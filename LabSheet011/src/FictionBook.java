@@ -9,8 +9,6 @@ public class FictionBook implements Author, Book {
 	public FictionBook(String title , int publicYear) {
 		this.title = title;
 		this.publicYear = publicYear;
-		this.email = email;
-		this.author_name = author_name;
 	}
 	
 	public void setAuthorName(String name) {
@@ -32,8 +30,9 @@ public class FictionBook implements Author, Book {
 	
 	public boolean checkFormatName() {
 		int space = this.author_name.trim().indexOf(" ");
-		if(space==-1) return false;
-		else return true;}
+		if(space==-1) { return false; }
+		else { return true;}
+		}
 	/*public boolean checkFormatName() {
 		if(author_name.endsWith(getFirstName() + " " + getLastName())) { return true; }
 		else { return false; }
